@@ -13,6 +13,20 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie."/>
     </header>
     <main>
+      <section class="card" id="bug-counter-section">
+        <h1>Happy Accidents</h1>
+        <!--
+          TODO: total the count after I get through the modules
+          I won't add comments like this in real world web pages
+          var count = $('ul.bug-list').children().length;
+        -->
+        <count>
+        <br/>
+        <ol class="bug-list">
+            <li>An ordered list should have been used for this versus CSS counters.  Sometime practice is its own bug.</li>
+            <li>An extra </li>
+        </ol>
+      </section>
       <section class="card" id="html-section">
         <h1>HTML</h1>
         <ul>
@@ -39,7 +53,16 @@
             Gonna have to bookmark a resource for this at future companies.
           </li>
           <li>
-            Margin = space outside of the element; Padding = space within the element.
+            Margin = space outside of the element; Padding = space within the element.  Using these proprties with unordered lists and the list elements is a great example.
+          </li>
+          <li>
+            Within the blocks of the CSS file, a period designates a class selector.  The exact name of the class must follow the period.
+          </li>
+          <li>
+            When a period is not applied, the styling is applied to any html tags that match the name of the CSS 'block'.
+          </li>
+          <li>
+            Order of CSS parameters doesn't seem to matter.  "#3A864D 5px solid;" is equivalent to "5px solid #3A864D;""
           </li>
         </ul>
       </section>
@@ -50,7 +73,10 @@
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
           <li>
-            I'm seriously going to have to bookmark the documentation for GIT whereever I work...
+            I'm seriously going to have to bookmark the documentation for GIT wherever I work...
+          </li>
+          <li>
+            git add -A is equivalent to git add * on windows (rsc to confirm).  I can save time by not having to type an extra character.
           </li>
         </ul>
       </section>

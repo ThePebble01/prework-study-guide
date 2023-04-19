@@ -13,6 +13,9 @@ h1,
 h2 {
     text-align: center;
 }
+ul li{
+    padding: 20px;
+}
 img {
     display: block;
     height: 50px;
@@ -27,4 +30,25 @@ ul {
 p {
     text-align: center;
     font-size: 30px;
+}
+.card {
+    width: 80%;
+    margin: 40px auto;
+    border: #3A864D 5px solid;
+    box-shadow: 5px 10px #394F3F;
+}
+.bug-counter {
+    counter-increment: bug-counter;
+    content: "Bugs " counter(count)
+}
+.bug-list {
+    padding-left: 40px;
+    font-size: 20px;
+    counter-reset: count 0;
+}
+.bug-list li {
+    counter-increment: count 1;
+}
+.bug-list li::marker {
+    content: counter(count, decimal) ') ';
 }
