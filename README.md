@@ -18,20 +18,19 @@ N/A
 
 ## Usage
 
-### Simply scroll the page to review notes.
+To use this Prework Study Guide, you can review the notes in each section. For suggestions on what to study first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a list of topics we learned from the prework along with a suggestion on which topic to study first.
 
-### In order to review js debugs within Google Chrome on a Windows machine (one of the mac-folk can contribute their instructions later):
-1. Open the webpage.
-2. ![Right-click anywhere on the page and select inspect.](assets/images/navigation-for-inspect-webpage.png)
-3. A ?window? should open in your browser alongsize the webpage.  It's position may vary depending on your settings.
-4. ![Select the console tab within this "inspector window"](assets/images/navigation-for-console.png)
-5. ![Enjoy!](assets/images/inspect-webpage-debugs.png)
+![Enjoy!](assets/images/inspect-webpage-debugs.png)
+(TBD identifying how to reference images within a repo without hardcoding the url for the image in the repo....)
 
 ## Credits
 Resources:
 https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+
 https://itsfoss.com/markdown-nested-lists/
+
 https://developer.mozilla.org/en-US/docs/Web/CSS
+
 (I need more practice with counters) https://stackoverflow.com/questions/30063722/using-css-and-jquery-to-display-total-count-of-list
 
 ## License
