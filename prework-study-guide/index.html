@@ -4,14 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie."/>
     </header>
     <main>
+      <section class="card" id="bug-counter-section">
+        <h1>Happy Accidents</h1>
+        <!--
+          TODO: total the count after I get through the modules
+          I won't add comments like this in real world web pages
+          var count = $('ul.bug-list').children().length;
+        -->
+        <count>
+        <br/>
+        <ol class="bug-list">
+            <li>An ordered list should have been used for this versus CSS counters.  Sometime practice is its own bug.</li>
+            <li>An extra </li>
+        </ol>
+      </section>
       <section class="card" id="html-section">
         <h1>HTML</h1>
         <ul>
@@ -19,10 +34,10 @@
             The head and meta tags describe the page.  These are not visible to users.
           </li>
           <li>
-            For some reason, the nerds that invented HTML called <'!DOCTYPE html> a declaration, but it seems to be the only one according to <a href="https://www.w3schools.com/tags/tag_meta.asp">W3 Schools</a>.  One-off things don't deserve a general name!
+            For some reason, the nerds that invented HTML called <'!DOCTYPE html> a declaration, but it seems to be the only HTML tag according to <a href="https://www.w3schools.com/tags/tag_meta.asp">W3 Schools</a>.  One-off things don't deserve a general name!
           </li>
           <li>
-            Tags are hierarchially ordered.  There are parent tags that 'contain' child tags.
+            Tags are hierarchically ordered.  There are parent tags that 'contain' child tags.
           </li>
           <li>
             Each tag has attributes that inform how browsers should 'handle' the content.
@@ -32,9 +47,22 @@
    
       <section class="card" id="css-section">
         <h1>CSS</h1>
+        <img src="./assets/300-css-rule.png"/>
         <ul>
           <li>
-            
+            Gonna have to bookmark a resource for this at future companies.
+          </li>
+          <li>
+            Margin = space outside of the element; Padding = space within the element.  Using these proprties with unordered lists and the list elements is a great example.
+          </li>
+          <li>
+            Within the blocks of the CSS file, a period designates a class selector.  The exact name of the class must follow the period.
+          </li>
+          <li>
+            When a period is not applied, the styling is applied to any html tags that match the name of the CSS 'block'.
+          </li>
+          <li>
+            Order of CSS parameters doesn't seem to matter.  "#3A864D 5px solid;" is equivalent to "5px solid #3A864D;""
           </li>
         </ul>
       </section>
@@ -45,7 +73,10 @@
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
           <li>
-            I'm seriously going to have to bookmark the documentation for GIT whereever I work...
+            I'm seriously going to have to bookmark the documentation for GIT wherever I work...
+          </li>
+          <li>
+            git add -A is equivalent to git add * on windows (rsc to confirm).  I can save time by not having to type an extra character.
           </li>
         </ul>
       </section>
