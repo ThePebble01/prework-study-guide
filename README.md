@@ -18,10 +18,16 @@ N/A
 
 ## Usage
 
-To use this Prework Study Guide, you can review the notes in each section. For suggestions on what to study first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a list of topics we learned from the prework along with a suggestion on which topic to study first.
+To use this Prework Study Guide, you can review the notes in each section. For suggestions on what to study first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). On Windows, you can also right-click on the webpage and select 'Inspect'.
 
-![Enjoy!](https://github.com/ThePebble01/prework-study-guide/blob/main/prework-study-guide/assets/readme-images/inspect-webpage-debugs.PNG?raw=true)
-(TBD identifying how to reference images within a repo without hardcoding the url for the image in the repo....)
+
+![Right-Click Context Menu On Windows](https://raw.githubusercontent.com/ThePebble01/prework-study-guide/main/prework-study-guide/assets/navigation-for-inspect-webpage.PNG)
+
+
+A console panel should open either below or to the side of the webpage in the browser. There you will see a list of topics we learned from the prework along with a suggestion on which topic to study first.
+
+
+![Select Console To View Webpage](https://raw.githubusercontent.com/ThePebble01/prework-study-guide/main/prework-study-guide/assets/viewing-console-from-inspect-webpage.PNG)
 
 ## Credits
 Resources:
