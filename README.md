@@ -21,7 +21,7 @@ N/A
 To use this Prework Study Guide, you can review the notes in each section. For suggestions on what to study first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). On Windows, you can also right-click on the webpage and select 'Inspect'.
 
 
-![Right-Click Context Menu On Windows](https://raw.githubusercontent.com/ThePebble01/prework-study-guide/main/prework-study-guide/assets/navigation-for-inspect-webpage.PNG)
+![Right-Click Context Menu On Windows](https://github.com/ThePebble01/prework-study-guide/blob/main/prework-study-guide/assets/navigation-for-inspect-webpage.png?raw=true)
 
 
 A console panel should open either below or to the side of the webpage in the browser. There you will see a list of topics we learned from the prework along with a suggestion on which topic to study first.
