@@ -39,6 +39,8 @@ https://developer.mozilla.org/en-US/docs/Web/CSS
 
 (I need more practice with counters) https://stackoverflow.com/questions/30063722/using-css-and-jquery-to-display-total-count-of-list
 
+https://github.com/orgs/community/discussions/22495
+
 ## License
 
 MIT license...see license file in repo for more detail.
